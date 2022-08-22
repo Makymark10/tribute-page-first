@@ -1,0 +1,107 @@
+@import 'config';
+
+body {
+    background-color: $bg-lightgray;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFF;
+    padding: 5vw;
+    background-color: $bg-gray;
+    border-radius: 10px;
+}
+   @media (min-width: 250px) {
+.table1 {
+    top:0;
+    margin: 0;
+    bottom: 0;
+    position: relative;
+    min-width: 40%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    @media (min-width: 200px) {
+    img {
+        width: 40vw;
+        min-height: 100px;
+        height: 30vw;
+    }
+
+    .table2 {
+        left: 3px;
+        position: relative;
+        padding: 5vw;
+        justify-self: center;
+        font-family: 'Franklin Gothic Medium';
+        h1 {
+            font-size: 5vw;
+        }
+
+        h3 {
+            font-size: 3vw;
+        }
+
+        p {
+            font-size: 2vw;
+        }
+    }
+}
+}
+
+}
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 30px;
+    padding: 10px;
+
+    .left {
+        justify-items: center;
+        align-items: center;
+
+
+        h1 {
+            font-size: 3vw;
+        }
+        p {
+            font-size: 1.5vw;
+        }
+    }
+
+    .right {
+        justify-content: center;
+        align-items: flex-start;
+
+        padding-top: 3vw;
+
+
+        h1 {
+            font-size: 2vw;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: $text-ligtred;
+            background: transparent;
+        }
+
+        h3 {
+            font-size: 1.5vw;
+            color: $bg-gray;
+        }
+    }
+
+}
+
+
